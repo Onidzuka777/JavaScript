@@ -1,0 +1,74 @@
+* {
+    padding: 0;
+    margin: 0;
+    outline:none;  /* убираем обводку элементов при нажатии*/
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center; /*Свойство выравнивания элементов внутри контейнера по поперечной оси.*/
+    flex-grow: 1;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    flex-grow: 3;
+    justify-content: stretch;
+    
+}
+
+.navigate__input {
+    border: none;  /*убираем рамки у инпута*/
+}
+
+.avatar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 38px;
+    /* flex-grow: 1; */
+}
+
+.avatar__login {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.avatar_icon {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.navigate {
+    height: 68px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+    align-items: center;
+    box-shadow: 0px 1px 4px 0px rgba(21, 34, 50, 0.08);
+    background: rgb(255, 255, 255);
+}
+
+.navigate__ava-girl {
+    border-radius: 50px;
+    background-color: rgb(189, 189, 189);
+}
+
+.sidebar {
+    display: flex;
+    flex-direction: column; /* размещаем элементы к колонку */
+    width: 250px;
+    height: 100vh;
+    gap: 30px;
+    /* left: 16px;
+    right: 16px;
+    top: 16px;
+    bottom: 16px;  */
+    box-shadow: inset -1px 0px 0px 0px rgb(215, 219, 236);
+    background: rgb(245, 246, 250); 
+}
